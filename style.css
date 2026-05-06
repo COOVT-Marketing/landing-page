@@ -268,6 +268,10 @@ body.modal-open footer {
     transition: opacity 0.3s ease;
 }
 
+#legalModal {
+    overflow: hidden;
+}
+
 .modal.active {
     display: flex;
     opacity: 1;
@@ -285,6 +289,24 @@ body.modal-open footer {
     overflow-y: auto;
     position: relative;
     box-shadow: 0 30px 60px rgba(0, 0, 0, 0.5);
+}
+
+.modal-content::-webkit-scrollbar {
+    width: 8px;
+}   
+
+.modal-content::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+}
+
+.modal-content::-webkit-scrollbar-thumb {
+    background: #ffffff;
+    border-radius: 10px;
+}
+
+.modal-content::-webkit-scrollbar-thumb:hover {
+    background: #e0e0e0;
 }
 
 .close-btn {
