@@ -60,7 +60,7 @@ const legalData = {
         <li>Request access to the personal data we hold about you</li>
         <li>Request correction or deletion of your data (as permitted by law)</li>
         </ul>
-        <p>To exercise any of these rights, please contact us at info@securedriveins.com.</p>
+        <p>To exercise any of these rights, please contact us at info@securedrive-insurance.com.</p>
         <h3>6. Cookies and Tracking Technologies</h3>
         <p>We use cookies and other tracking technologies to:<br></p>
         <ul>
@@ -78,7 +78,7 @@ const legalData = {
         <h3>10. Policy Updates</h3>
         <p>We reserve the right to update this Privacy Policy at any time. Changes will be posted on this page with an updated effective date. Your continued use of the site constitutes acceptance of those changes.</p>
         <h3>11. Contact Us</h3>
-        <p>If you have any questions or concerns regarding this Privacy Policy, please contact us at info@securedriveins.com</p>
+        <p>If you have any questions or concerns regarding this Privacy Policy, please contact us at info@securedrive-insurance.com</p>
         `,
     terms: `
         <h2>Terms of Use</h2>
@@ -105,7 +105,7 @@ const legalData = {
         <h3>5. Limitation of Liability</h3>
         <p>SecureDrive Insurance is not liable for any damages arising from your use of this site or any services provided by third-party partners. We provide the site "as is" without any warranties of any kind.</p>
         <h3>6. Contact Information</h3>
-        <p>Questions regarding these Terms of Use should be directed to: <a href="mailto:info@securedriveins.com">info@securedriveins.com</a></p>
+        <p>Questions regarding these Terms of Use should be directed to: <a href="mailto:info@securedrive-insurance.com">info@securedrive-insurance.com</a></p>
         `,
 };
 
