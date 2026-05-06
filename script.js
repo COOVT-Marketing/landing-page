@@ -35,9 +35,33 @@ const legalData = {
         </ul>
         <p>We may also use cookies and tracking technologies for analytics and retargeting purposes.</p>
         <h3>3. Consent and Verification Technologies</h3>
-        <p>We use <strong>Jornaya</strong> and TrustedForm to capture and verify consumer consent. These tools record your interaction with our website to ensure compliance with TCPA (Telephone Consumer Protection Act) regulations.<br>These recordings and tokens help confirm when and how you provided consent to be contacted.</p>
-        <h3>4. Your Rights</h3>
-        <p>Contact us at <strong>privacy@securedrive.com</strong> to exercise your data rights.</p>`,
+        <p>We use <strong>Jornaya</strong> and <strong>TrustedForm</strong> to capture and verify consumer consent. These tools record your interaction with our website to ensure compliance with <strong>TCPA (Telephone Consumer Protection Act)</strong> regulations.<br>These recordings and tokens help confirm when and how you provided consent to be contacted.</p>
+        <h3>4. How We Use or Share Your Information</h3>
+        <p>We use the information we collect to:</p>
+        <ul>
+        <li>Connect you with the third-party insurance providers or partners</li>
+        <li>Send quotes or contact you with the relevant services</li>
+        <li>Improve website performance and use experience</li>
+        <li>Ensure legal compliance and verify consent</li>
+        <li>Communicate with you via phone, text, or email</li>
+        </ul>
+        <p>We may share your information with:</p>
+        <ul>
+        <li>Licensed insurance providers and agents</li>
+        <li>Affiliate marketing partners</li>
+        <li>Service providers who support our operations (e.g., hosting, analytics)</li>
+        <li>Legal authorities if required by law</li>
+        </ul>
+        <p>We <strong>do not sell</strong> your personal data to unrelated third parties for unrelated marketing purposes.</p>
+        <h3>5. Your Choices and Rights</h3>
+        <p>You have the right to:</p>
+        <ul>
+        <li>Opt-out of marketing communications</li>
+        <li>Request access to the personal data we hold about you</li>
+        <li>Request correction or deletion of your data (as permitted by law)</li>
+        </ul>
+        <p>To exercise any of these rights, please contact us at info@securedriveins.com.</p>
+        `,
     terms: `
         <h2>Terms of Use</h2>
         <p><strong>Effective Date: April 30, 2026</strong></p>
