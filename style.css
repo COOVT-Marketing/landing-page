@@ -59,7 +59,7 @@ body {
     top: 0;
     z-index: 100;
     border-bottom: 1px solid var(--glass-border);
-    display: flex
+    display: flex;
 }
 
 .logo {
@@ -69,12 +69,12 @@ body {
     text-transform: uppercase;
 }
 
-.logo1 {
-    height: 50px;
-}
-
 .logo span {
     color: var(--primary);
+}
+
+.logo img {
+    height: 50px;
 }
 
 .hero-content {
