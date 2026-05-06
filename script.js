@@ -101,7 +101,7 @@ const legalData = {
         <h3>3. User Eligibility</h3>
         <p>To use this website, you must be at least 18 years of age and a resident of the United States. By using this site, you represent that all information you provide is accurate and belongs to you.</p>
         <h3>4. Intellectual Property</h3>
-        <p>All content, logos, designs, and code on this website are the property of Adbridge Networks LLC and are protected by copyright and trademark laws. You may not copy, redistribute, or use our branding without express written permission.</p>
+        <p>All content, logos, designs, and code on this website are the property of <strong>Adbridge Networks LLC</strong> and are protected by copyright and trademark laws. You may not copy, redistribute, or use our branding without express written permission.</p>
         <h3>5. Limitation of Liability</h3>
         <p>SecureDrive Insurance is not liable for any damages arising from your use of this site or any services provided by third-party partners. We provide the site "as is" without any warranties of any kind.</p>
         <h3>6. Contact Information</h3>
