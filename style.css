@@ -475,7 +475,6 @@ body.modal-open {
 
 .cta-image {
     flex: 1;
-    height 100%;
 }
 .cta-image img {
     width: 100%;
