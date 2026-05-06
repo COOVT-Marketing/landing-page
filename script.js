@@ -17,6 +17,8 @@
    ========================================== */
 const legalData = {
     privacy: `
+       Your privacy is important to us. This Privacy Policy explains how Insurance-for.Autos (“we,” “us,” or “our”) collects, uses, shares, and protects your information when you use our website and services.
+By using this website, you agree to the practices described in this Privacy Policy. If you do not agree, please do not use the site.
         <h2>Privacy Policy</h2>
         <p><strong>Last Updated: April 30, 2026</strong></p>
         <h3>1. Information We Collect</h3>
