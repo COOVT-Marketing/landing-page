@@ -83,12 +83,30 @@ const legalData = {
     terms: `
         <h2>Terms of Use</h2>
         <p><strong>Effective Date: April 30, 2026</strong></p>
-        <h3>1. Nature of Service</h3>
-        <p>SecureDrive Insurance is a lead-generation platform and not a risk-bearing insurance carrier.</p>
-        <h3>2. User Accuracy</h3>
-        <p>You agree to provide truthful and complete information to avoid "rate evasion."</p>
-        <h3>3. Dispute Resolution</h3>
-        <p>Disputes will be resolved through binding arbitration, waiving right to class-action lawsuits.</p>`,
+        <p>Welcome to <strong>SecureDrive Insurance</strong>. By accessing or using our website, you agree to be bound by these Terms of Use. If you do not agree to these terms, please discontinue use of the site immediately.</p>
+        <h3>1. Description of Service</h3>
+        <p>SecureDrive Insurance provides a platform that connects consumers with third-party insurance agents, brokers, and carriers. We are an administrative and marketing entity and:<br></p>
+        <ul>
+        <li>Do not provide insurance quotes directly</li>
+        <li>Do not underwrite or issue insurance policies</li>
+        <li>Do not guarantee that any partner will provide a specific quote</li>
+        </ul>
+        <h3>2. TCPA Consent & Communication</h3>
+        <p>By submitting your phone number and information, you provide express written consent to be contacted via telephone, automated dialing systems, artificial/pre-recorded messages, or text messages by <strong>SecureDrive Insurance</strong> and <strong>our partners</strong>.<br></p>
+        <ul>
+        <li>Consent is not a condition of purchase</li>
+        <li>Message and data rates may apply</li>
+        <li>You may opt-out at any time by replying "STOP" to text messages</li>
+        </ul>
+        <h3>3. User Eligibility</h3>
+        <p>To use this website, you must be at least 18 years of age and a resident of the United States. By using this site, you represent that all information you provide is accurate and belongs to you.</p>
+        <h3>4. Intellectual Property</h3>
+        <p>All content, logos, designs, and code on this website are the property of Adbridge Networks LLC and are protected by copyright and trademark laws. You may not copy, redistribute, or use our branding without express written permission.</p>
+        <h3>5. Limitation of Liability</h3>
+        <p>SecureDrive Insurance is not liable for any damages arising from your use of this site or any services provided by third-party partners. We provide the site "as is" without any warranties of any kind.</p>
+        <h3>6. Contact Information</h3>
+        <p>Questions regarding these Terms of Use should be directed to: <a href="mailto:info@securedriveins.com">info@securedriveins.com</a></p>
+        `,
 };
 
 const stateMapping = {
