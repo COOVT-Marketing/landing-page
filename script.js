@@ -25,13 +25,13 @@ const legalData = {
         <h3>2. Information We Collect</h3>
         <p>We collect personal information you voluntarily provide when you fill out a form or otherwise interact with our site. This may include:<br><br></p>
         <ul>
-        <li>Full name</li>
-        <li>Phone number</li>
-        <li>Email address</li>
-        <li>Zip code</li>
-        <li>Vehicle-related or insurance-related information</li>
-        <li>IP address and geolocation</li>
-        <li>Device, browser, and usage data</li>
+            <li>Full name</li>
+            <li>Phone number</li>
+            <li>Email address</li>
+            <li>Zip code</li>
+            <li>Vehicle-related or insurance-related information</li>
+            <li>IP address and geolocation</li>
+            <li>Device, browser, and usage data</li>
         </ul>
         <p>We may also use cookies and tracking technologies for analytics and retargeting purposes.</p>
         <h3>3. Consent and Verification Technologies</h3>
