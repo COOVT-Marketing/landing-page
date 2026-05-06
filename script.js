@@ -61,6 +61,24 @@ const legalData = {
         <li>Request correction or deletion of your data (as permitted by law)</li>
         </ul>
         <p>To exercise any of these rights, please contact us at info@securedriveins.com.</p>
+        <h3>6. Cookies and Tracking Technologies</h3>
+        <p>We use cookies and other tracking technologies to:</p>
+        <ul>
+        <li>Monitor site performance</li>
+        <li>Analyze user behavior</li>
+        <li>Customize advertising campaigns</li>
+        </ul>
+        <p>You can control cookie preferences through your browser settings.</p>
+        <h3>7. Data Security</h3>
+        <p>We implement appropriate technical and organizational measures to protect your personal information from unauthorized access, disclosure, or misuse.<br>However, no method of transmission over the Internet is 100% secure. We cannot guarantee absolute security.</p>
+        <h3>8. Third-Party Websites</h3>
+        <p>Our website may contain links to third-party sites. We are not responsible for the privacy practices or content of those sites. Please review their policies before submitting personal information.</p>
+        <h3>9. Children's Privacy</h3>
+        <p>Our services are not intended for individuals under the age of 18. We do not knowingly collect information from children.</p>
+        <h3>10. Policy Updates</h3>
+        <p>We reserve the right to update this Privacy Policy at any time. Changes will be posted on this page with an updated effective date. Your continued use of the site constitutes acceptance of those changes.</p>
+        <h3>11. Contact Us</h3>
+        <p>If you have any questions or concerns regarding this Privacy Policy, please contact us at info@securedriveins.com</p>
         `,
     terms: `
         <h2>Terms of Use</h2>
