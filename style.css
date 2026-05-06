@@ -26,10 +26,6 @@ body {
     min-height: 100vh;
 }
 
-.logo1 {
-    height: 50px;
-}
-
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -63,6 +59,7 @@ body {
     top: 0;
     z-index: 100;
     border-bottom: 1px solid var(--glass-border);
+    display: flex
 }
 
 .logo {
@@ -70,6 +67,10 @@ body {
     font-weight: 800;
     letter-spacing: 1.5px;
     text-transform: uppercase;
+}
+
+.logo1 {
+    height: 50px;
 }
 
 .logo span {
