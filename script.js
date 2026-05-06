@@ -17,10 +17,9 @@
    ========================================== */
 const legalData = {
     privacy: `
-       Your privacy is important to us. This Privacy Policy explains how Insurance-for.Autos (“we,” “us,” or “our”) collects, uses, shares, and protects your information when you use our website and services.
-By using this website, you agree to the practices described in this Privacy Policy. If you do not agree, please do not use the site.
         <h2>Privacy Policy</h2>
         <p><strong>Last Updated: April 30, 2026</strong></p>
+            Your privacy is important to us. This Privacy Policy explains how Insurance-for.Autos (“we,” “us,” or “our”) collects, uses, shares, and protects your information when you use our website and services. By using this website, you agree to the practices described in this Privacy Policy. If you do not agree, please do not use the site.
         <h3>1. Information We Collect</h3>
         <p>SecureDrive Insurance collects Nonpublic Personal Information (NPI) to provide accurate quotes. This includes your name, contact details, and vehicle VIN.</p>
         <h3>2. How We Use Your Data</h3>
