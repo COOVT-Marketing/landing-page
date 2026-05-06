@@ -272,8 +272,12 @@ body.modal-open {
     transition: opacity 0.3s ease;
 }
 
+.no-scroll {
+    overflow: hidden !important;
+}
+
 #legalModal {
-    overflow: hidden;
+    overflow-y: auto;
     -ms-overflow-style: none;
     scrollbar-width: none;
 }
