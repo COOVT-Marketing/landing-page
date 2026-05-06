@@ -272,10 +272,6 @@ body.modal-open {
     transition: opacity 0.3s ease;
 }
 
-.no-scroll {
-    overflow: hidden !important;
-}
-
 #legalModal {
     overflow-y: auto;
     -ms-overflow-style: none;
@@ -478,9 +474,9 @@ body.modal-open {
 }
 
 .cta-image {
-    flex: 1 height: 100%;
+    flex: 1;
+    height 100%;
 }
-
 .cta-image img {
     width: 100%;
     height: auto;
