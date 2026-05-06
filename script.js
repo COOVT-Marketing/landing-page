@@ -25,13 +25,13 @@ const legalData = {
         <h3>2. Information We Collect</h3>
         <p>We collect personal information you voluntarily provide when you fill out a form or otherwise interact with our site. This may include:<br><br></p>
         <ul>
-        <li>Full name</li>
-        <li>Phone number</li>
-        <li>Email address</li>
-        <li>Zip code</li>
-        <li>Vehicle-related or insurance-related information</li>
-        <li>IP address and geolocation</li>
-        <li>Device, browser, and usage data</li>
+        &nbsp;&nbsp;<li>Full name</li>
+        &nbsp;&nbsp;<li>Phone number</li>
+        &nbsp;&nbsp;<li>Email address</li>
+        &nbsp;&nbsp;<li>Zip code</li>
+        &nbsp;&nbsp;<li>Vehicle-related or insurance-related information</li>
+        &nbsp;&nbsp;<li>IP address and geolocation</li>
+        &nbsp;&nbsp;<li>Device, browser, and usage data</li>
         </ul>
         <p>We may also use cookies and tracking technologies for analytics and retargeting purposes.</p>
         <h3>3. Consent and Verification Technologies</h3>
@@ -39,34 +39,34 @@ const legalData = {
         <h3>4. How We Use or Share Your Information</h3>
         <p>We use the information we collect to:</p>
         <ul>
-        <li>Connect you with the third-party insurance providers or partners</li>
-        <li>Send quotes or contact you with the relevant services</li>
-        <li>Improve website performance and use experience</li>
-        <li>Ensure legal compliance and verify consent</li>
-        <li>Communicate with you via phone, text, or email</li>
+        &nbsp;&nbsp;<li>Connect you with the third-party insurance providers or partners</li>
+        &nbsp;&nbsp;<li>Send quotes or contact you with the relevant services</li>
+        &nbsp;&nbsp;<li>Improve website performance and use experience</li>
+        &nbsp;&nbsp;<li>Ensure legal compliance and verify consent</li>
+        &nbsp;&nbsp;<li>Communicate with you via phone, text, or email</li>
         </ul>
         <p>We may share your information with:</p>
         <ul>
-        <li>Licensed insurance providers and agents</li>
-        <li>Affiliate marketing partners</li>
-        <li>Service providers who support our operations (e.g., hosting, analytics)</li>
-        <li>Legal authorities if required by law</li>
+        &nbsp;&nbsp;<li>Licensed insurance providers and agents</li>
+        &nbsp;&nbsp;<li>Affiliate marketing partners</li>
+        &nbsp;&nbsp;<li>Service providers who support our operations (e.g., hosting, analytics)</li>
+        &nbsp;&nbsp;<li>Legal authorities if required by law</li>
         </ul>
         <p>We <strong>do not sell</strong> your personal data to unrelated third parties for unrelated marketing purposes.</p>
         <h3>5. Your Choices and Rights</h3>
         <p>You have the right to:</p>
         <ul>
-        <li>Opt-out of marketing communications</li>
-        <li>Request access to the personal data we hold about you</li>
-        <li>Request correction or deletion of your data (as permitted by law)</li>
+        &nbsp;&nbsp;<li>Opt-out of marketing communications</li>
+        &nbsp;&nbsp;<li>Request access to the personal data we hold about you</li>
+        &nbsp;&nbsp;<li>Request correction or deletion of your data (as permitted by law)</li>
         </ul>
         <p>To exercise any of these rights, please contact us at info@securedriveins.com.</p>
         <h3>6. Cookies and Tracking Technologies</h3>
         <p>We use cookies and other tracking technologies to:</p>
         <ul>
-        <li>Monitor site performance</li>
-        <li>Analyze user behavior</li>
-        <li>Customize advertising campaigns</li>
+        &nbsp;&nbsp;<li>Monitor site performance</li>
+        &nbsp;&nbsp;<li>Analyze user behavior</li>
+        &nbsp;&nbsp;<li>Customize advertising campaigns</li>
         </ul>
         <p>You can control cookie preferences through your browser settings.</p>
         <h3>7. Data Security</h3>
