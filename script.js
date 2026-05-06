@@ -19,13 +19,23 @@ const legalData = {
     privacy: `
         <h2>Privacy Policy</h2>
         <p><strong>Last Updated: April 30, 2026</strong></p>
-            &nbsp;&nbsp;&nbsp;&nbsp; Your privacy is important to us. This Privacy Policy explains how Insurance-for.Autos (“we,” “us,” or “our”) collects, uses, shares, and protects your information when you use our website and services. By using this website, you agree to the practices described in this Privacy Policy. If you do not agree, please do not use the site.
-        <h3>1. Information We Collect</h3>
-        <p>SecureDrive Insurance collects Nonpublic Personal Information (NPI) to provide accurate quotes. This includes your name, contact details, and vehicle VIN.</p>
-        <h3>2. How We Use Your Data</h3>
-        <p>Your data is used to generate real-time quotes and prevent fraudulent applications.</p>
-        <h3>3. Data Security & AI</h3>
-        <p>In 2026, we utilize AI-driven analytics to match you with the most relevant insurance carriers.</p>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Your privacy is important to us. This Privacy Policy explains how SecureDrive Insurance (“we,” “us,” or “our”) collects, uses, shares, and protects your information when you use our website and services. <br> By using this website, you agree to the practices described in this Privacy Policy. If you do not agree, please do not use the site.
+        <h3>1. Who We Are</h3>
+        <p>SecureDrive Insurance is an <stong>advertising and affiliate marketing website</strong> that connects users with third-party licensed insurance providers. We are <strong>not an insurance carrier</strong> and do not issue or underwrite insurance policies.</p>
+        <h3>2. Information We Collect</h3>
+        <p>We collect personal information you voluntarily provide when you fill out a form or otherwise interact with our site. This may include:<br><br></p>
+        <ul>
+        <li>Full name</li>
+        <li>Phone number</li>
+        <li>Email address</li>
+        <li>Zip code</li>
+        <li>Vehicle-related or insurance-related information</li>
+        <li>IP address and geolocation</li>
+        <li>Device, browser, and usage data</li>
+        </ul>
+        <p>We may also use cookies and tracking technologies for analytics and retargeting purposes.</p>
+        <h3>3. Consent and Verification Technologies</h3>
+        <p>We use <strong>Jornaya</strong> and TrustedForm to capture and verify consumer consent. These tools record your interaction with our website to ensure compliance with TCPA (Telephone Consumer Protection Act) regulations.<br>These recordings and tokens help confirm when and how you provided consent to be contacted.</p>
         <h3>4. Your Rights</h3>
         <p>Contact us at <strong>privacy@securedrive.com</strong> to exercise your data rights.</p>`,
     terms: `
