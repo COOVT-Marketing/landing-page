@@ -160,7 +160,9 @@ select option {
     background: #1c1c1e;
     color: white;
 }
-
+li {
+    margin-left: 5px;
+}
 .submit-btn {
     width: 100%;
     padding: 16px;
