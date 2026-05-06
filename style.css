@@ -72,6 +72,11 @@ body {
     color: var(--primary);
 }
 
+.logo img {
+    height: 50px;
+    width: 50px
+}
+
 .hero-content {
     flex: 1;
     min-width: 320px;
