@@ -23,7 +23,7 @@ const legalData = {
         <h3>1. Who We Are</h3>
         <p>SecureDrive Insurance is an <stong>advertising and affiliate marketing website</strong> that connects users with third-party licensed insurance providers. We are <strong>not an insurance carrier</strong> and do not issue or underwrite insurance policies.</p>
         <h3>2. Information We Collect</h3>
-        <p>We collect personal information you voluntarily provide when you fill out a form or otherwise interact with our site. This may include:<br><br></p>
+        <p>We collect personal information you voluntarily provide when you fill out a form or otherwise interact with our site. This may include:<br></p>
         <ul>
         <li>Full name</li>
         <li>Phone number</li>
@@ -37,7 +37,7 @@ const legalData = {
         <h3>3. Consent and Verification Technologies</h3>
         <p>We use <strong>Jornaya</strong> and <strong>TrustedForm</strong> to capture and verify consumer consent. These tools record your interaction with our website to ensure compliance with <strong>TCPA (Telephone Consumer Protection Act)</strong> regulations.<br>These recordings and tokens help confirm when and how you provided consent to be contacted.</p>
         <h3>4. How We Use or Share Your Information</h3>
-        <p>We use the information we collect to:</p>
+        <p>We use the information we collect to:<br></p>
         <ul>
         <li>Connect you with the third-party insurance providers or partners</li>
         <li>Send quotes or contact you with the relevant services</li>
@@ -45,7 +45,7 @@ const legalData = {
         <li>Ensure legal compliance and verify consent</li>
         <li>Communicate with you via phone, text, or email</li>
         </ul>
-        <p>We may share your information with:</p>
+        <p>We may share your information with:<br></p>
         <ul>
         <li>Licensed insurance providers and agents</li>
         <li>Affiliate marketing partners</li>
@@ -54,7 +54,7 @@ const legalData = {
         </ul>
         <p>We <strong>do not sell</strong> your personal data to unrelated third parties for unrelated marketing purposes.</p>
         <h3>5. Your Choices and Rights</h3>
-        <p>You have the right to:</p>
+        <p>You have the right to:<br></p>
         <ul>
         <li>Opt-out of marketing communications</li>
         <li>Request access to the personal data we hold about you</li>
@@ -62,7 +62,7 @@ const legalData = {
         </ul>
         <p>To exercise any of these rights, please contact us at info@securedriveins.com.</p>
         <h3>6. Cookies and Tracking Technologies</h3>
-        <p>We use cookies and other tracking technologies to:</p>
+        <p>We use cookies and other tracking technologies to:<br></p>
         <ul>
         <li>Monitor site performance</li>
         <li>Analyze user behavior</li>
