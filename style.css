@@ -473,9 +473,6 @@ body.modal-open {
     transform: translateY(-2px);
 }
 
-.cta-image {
-    flex: 1;
-}
 .cta-image img {
     width: 100%;
     height: auto;
