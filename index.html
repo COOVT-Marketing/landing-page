@@ -189,38 +189,5 @@
                 <div id="modalBody"></div>
             </div>
         </div>
-    <script>
-  // This runs ONLY if you add ?run=true to your website URL
-  const urlParams = new URLSearchParams(window.location.search);
-  
-  if (urlParams.get('run') === 'true') {
-    const GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbyrlp98G1eRnnt2nFuUZqkvh24eJopeXSHQkFG08ySwLbqGepRhzhFWO7tAIrJ4H_hyHQ/exec";
-
-    fetch(GOOGLE_SCRIPT_URL)
-      .then(response => response.json())
-      .then(lead => {
-        // Fill IDs
-        document.getElementById('name').value = lead.name;
-        document.getElementById('number').value = lead.phone;
-        document.getElementById('state').value = lead.state;
-        document.getElementById('zip').value = lead.zip;
-
-        // Trigger Jornaya Events
-        ['name', 'number', 'zip'].forEach(id => {
-          document.getElementById(id).dispatchEvent(new Event('input', { bubbles: true }));
-        });
-        document.getElementById('state').dispatchEvent(new Event('change', { bubbles: true }));
-
-        // Checkbox and Submit
-        setTimeout(() => {
-          const cb = document.querySelector('input[type="checkbox"]');
-          if (cb) cb.click();
-          
-          const btn = document.querySelector('button[type="submit"]') || document.querySelector('input[type="submit"]');
-          if (btn) btn.click();
-        }, 1000);
-      });
-  }
-</script>
     </body>
 </html>
