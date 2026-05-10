@@ -489,9 +489,9 @@ body.modal-open {
         text-align: center;
     }
 
-    .section-tag {
+    /* .section-tag {
         justify-content: center;
-    }
+    } */
 }
 
 @media (max-width: 1024px) {
@@ -535,7 +535,7 @@ body.modal-open {
     }
 
     .section-tag {
-        justify-content: center;
+        justify-content: left;
     }
 
     .why-content h2 {
