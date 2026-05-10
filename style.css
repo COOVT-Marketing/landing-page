@@ -578,7 +578,7 @@ body.modal-open {
 
 @media (max-width: 480px) {
     .logo {
-        font-size: 1.8rem;
+        font-size: 1rem;
     }
 
     .hero-content h1 {
