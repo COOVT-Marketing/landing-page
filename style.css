@@ -490,7 +490,7 @@ body.modal-open {
     }
 
     .section-tag {
-        justify-content: center;
+        justify-content: left;
     }
 }
 
