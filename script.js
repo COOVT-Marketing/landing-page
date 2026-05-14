@@ -5,7 +5,7 @@
     var tf = document.createElement('script');
     tf.type = 'text/javascript';
     tf.async = true;
-    tf.src = ("https:" == document.location.protocol ? 'https' : 'http') +
+    tf.src = (window.location.protocol === "https:" ? 'https' : 'http') +
       '://api.trustedform.com/trustedform.js?field=xxTrustedFormCertUrl&use_tagged_consent=true&l=' +
       new Date().getTime() + Math.random();
     var s = document.getElementsByTagName('script')[0]; 
