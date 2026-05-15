@@ -3,191 +3,290 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="activeprospect-domain-verification" content="7eFKn1fE9JAy6Py2afQb+Q">
-        <meta property="og:title" content="Secure Drive Insurance">
-        <meta property="og:description" content="Get your personalized insurance quote today.">
-        <meta property="og:image" content="link-to-your-logo.png">
-        <meta property="og:url" content="https://securedrive-insurance.com">
+        <meta name="activeprospect-domain-verification" content="7eFKn1fE9JAy6Py2afQb+Q" />
+        <meta property="og:title" content="SecureDrive Insurance" />
+        <meta property="og:description" content="Get your personalized insurance quote today." />
+        <meta property="og:image" content="images/logo.png" />
+        <meta property="og:url" content="https://securedrive-insurance.com" />
         <title>SecureDrive Insurance | Premium Auto Coverage</title>
-        <link rel="icon" type="image/png" href="images/logo.png">
+        <link rel="icon" type="image/png" href="images/logo.png" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=DM+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
         <link rel="stylesheet" href="style.css" />
     </head>
     <body>
+
+        <!-- NAVBAR -->
         <nav class="navbar">
-            <div class="logo"> <img src="images/logo.png" alt="Logo"></div>
-            <div class="logo" style="margin-top: 10px;">SECUREDRIVE<span> INSURANCE</span></div>
+            <div class="nav-inner">
+                <div class="nav-brand">
+                    <img src="images/logo.png" alt="SecureDrive Logo" class="nav-logo-img" />
+                    <div class="logo">SECUREDRIVE<span> INSURANCE</span></div>
+                </div>
+                <a href="tel:8888888888" class="nav-phone">&#9742;&nbsp;(888) 888-8888</a>
+            </div>
         </nav>
 
-        <main class="hero-section" id="Home">
-            <div class="container">
-                <div class="hero-content">
-                    <h1>
-                        Insurance built for the <br /><span
-                            >modern driver.</span
-                        >
+        <!-- HERO -->
+        <section class="hero" id="Home">
+            <div class="hero-overlay"></div>
+            <div class="hero-inner">
+
+                <div class="hero-left">
+                    <div class="badge">&#10003;&nbsp; Trusted by 250,000+ Drivers Nationwide</div>
+                    <h1 class="hero-title">
+                        Insurance built for the<br />
+                        <span>modern driver.</span>
                     </h1>
-                    <p>
-                        Secure your journey with tailored auto coverage that
-                        moves at your speed.
+                    <p class="hero-sub">
+                        Secure your journey with tailored auto coverage that moves at your speed.
+                        Compare top-rated carriers in minutes — no fluff, no hidden fees.
                     </p>
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <span class="stat-num">2 min</span>
+                            <span class="stat-label">To Get a Quote</span>
+                        </div>
+                        <div class="stat-divider"></div>
+                        <div class="stat">
+                            <span class="stat-num">$600+</span>
+                            <span class="stat-label">Avg. Annual Savings</span>
+                        </div>
+                        <div class="stat-divider"></div>
+                        <div class="stat">
+                            <span class="stat-num">A+</span>
+                            <span class="stat-label">Carrier Partners</span>
+                        </div>
+                    </div>
                 </div>
 
-                <div class="form-container">
-                    <form id="leadForm">
-                        <h3>Get Your Fast Quote</h3>
-                        <div class="input-group">
-                            <input
-                                type="text"
-                                id="name"
-                                placeholder="Full Name"
-                                required
-                            />
-                        </div>
-                        <!-- <div class="input-group">
-                        <input type="email" id="email" placeholder="Email Address" required>
-                        </div> -->
-                        <div class="input-group">
-                            <input
-                                type="tel"
-                                id="phone"
-                                placeholder="Phone Number"
-                                required
-                                pattern="\d{10}" 
-                                title="Please enter exactly 10 digits (e.g., 5551234567)"
-                                minlength="10"
-                                maxlength="10">
-                        </div>
-                        <div class="input-group">
-                            <select id="state" required>
-                                <option value="" disabled selected>
-                                    Select State
-                                </option>
-                            </select>
-                        </div>
-                        <div class="input-group">
-                            <input
-                                type="text"
-                                id="zip"
-                                placeholder="Zip Code"
-                                required
-                                pattern="\d{5}"
-                                title="Please insert a valid zip code!"
-                                minlength="5"
-                                maxlength="5"
-                            />
-                        </div>
-                        <div class="input-group">
-                            <input
-                                type="hidden"
-                                name="xxTrustedFormCertUrl"
-                                id="xxTrustedFormCertUrl"
-                                value=""
-                            />
-                        </div>
+                <div class="hero-right">
+                    <div class="form-container">
+                        <form id="leadForm">
+                            <div class="form-header">
+                                <p class="form-eyebrow">FREE &middot; NO OBLIGATION</p>
+                                <h3>Get Your Fast Quote</h3>
+                            </div>
 
-                        <button type="submit" class="submit-btn">
-                            Get a Quote
-                        </button>
-                        <div class="disclaimer-container">
-                            <input type="checkbox" id="consent" required />
-                            <p class="tcpa-disclosure">
-                                By clicking [Get a Quote], I provide my express
-                                written consent to be contacted by
-                                <strong>SecureDrive Insurance</strong> and its
-                                <strong>Marketing Partners</strong> at the
-                                phone number provided (including wireless
-                                numbers). I agree to receive marketing
-                                communications via automated technology,
-                                including autodialers, pre-recorded messages,
-                                and SMS/text messages, even if my number is on a
-                                federal or state Do-Not-Call registry. I
-                                understand that my consent is not a condition of
-                                purchase and that I can revoke this consent at
-                                any time. Msg & data rates may apply.
-                                <a href="privacy.html">Privacy Policy</a> |
-                                <a href="terms.html">Terms of Use</a>
-                            </p>
-                        </div>
-                    </form>
+                            <div class="input-group">
+                                <label for="name">Full Name</label>
+                                <input type="text" id="name" placeholder="John Doe" required />
+                            </div>
+                            <div class="input-group">
+                                <label for="phone">Phone Number</label>
+                                <input
+                                    type="tel" id="phone" placeholder="5551234567" required
+                                    pattern="\d{10}"
+                                    title="Please enter exactly 10 digits (e.g., 5551234567)"
+                                    minlength="10" maxlength="10"
+                                />
+                            </div>
+                            <div class="input-row">
+                                <div class="input-group">
+                                    <label for="state">State</label>
+                                    <select id="state" required>
+                                        <option value="" disabled selected>Select State</option>
+                                    </select>
+                                </div>
+                                <div class="input-group">
+                                    <label for="zip">Zip Code</label>
+                                    <input
+                                        type="text" id="zip" placeholder="90210" required
+                                        pattern="\d{5}"
+                                        title="Please insert a valid zip code!"
+                                        minlength="5" maxlength="5"
+                                    />
+                                </div>
+                            </div>
+                            <input type="hidden" name="xxTrustedFormCertUrl" id="xxTrustedFormCertUrl" value="" />
+
+                            <button type="submit" class="submit-btn">
+                                <span class="btn-text">Get a Quote</span>
+                                <span class="btn-arrow">&#8594;</span>
+                            </button>
+
+                            <div class="disclaimer-container">
+                                <input type="checkbox" id="consent" required />
+                                <p class="tcpa-disclosure">
+                                    By clicking [Get a Quote], I provide my express written consent to be
+                                    contacted by <strong>SecureDrive Insurance</strong> and its
+                                    <strong>Marketing Partners</strong> at the phone number provided
+                                    (including wireless numbers). I agree to receive marketing
+                                    communications via automated technology, including autodialers,
+                                    pre-recorded messages, and SMS/text messages, even if my number is on
+                                    a federal or state Do-Not-Call registry. Consent is not a condition of
+                                    purchase. Msg &amp; data rates may apply.
+                                    <a href="privacy.html">Privacy Policy</a> |
+                                    <a href="terms.html">Terms of Use</a>
+                                </p>
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
+        </section>
 
-            <section class="why-choose-us">
-                <div class="container1">
-                    <div class="why-content">
-                        <div class="section-tag">
-                            <span class="line"></span>
-                            <span class="tag-text">WHY</span>
-                        </div>
-                        <h2>Why Choose Us?</h2>
-                        <p>
-                            We understand that every driver has unique needs.
-                            That's why we offer customized car insurance
-                            solutions to fit your lifestyle and budget. Whether
-                            you need basic coverage or comprehensive protection,
-                            our expert team is here to help you every step of
-                            the way. With years of industry experience, we've
-                            partnered with trusted insurance providers to bring
-                            you the deals.
-                        </p>
-                        <a href="#" class="read-more-btn">Read More</a>
+        <!-- TRUST BAR -->
+        <div class="trust-bar">
+            <div class="trust-inner">
+                <span>&#10003;&nbsp; No Spam, Ever</span>
+                <span>&#10003;&nbsp; Instant Comparison</span>
+                <span>&#10003;&nbsp; 100% Free Service</span>
+                <span>&#10003;&nbsp; SSL Encrypted</span>
+                <span>&#10003;&nbsp; State-Licensed Agents</span>
+            </div>
+        </div>
+
+        <!-- HOW IT WORKS -->
+        <section class="how-it-works">
+            <div class="section-inner">
+                <div class="section-label">THE PROCESS</div>
+                <h2 class="section-title">Three steps to better coverage</h2>
+                <div class="steps-grid">
+                    <div class="step">
+                        <div class="step-num">01</div>
+                        <h4>Fill the Form</h4>
+                        <p>Share your basic details — name, location, and phone. Takes under 2 minutes.</p>
+                    </div>
+                    <div class="step-connector"></div>
+                    <div class="step">
+                        <div class="step-num">02</div>
+                        <h4>Compare Quotes</h4>
+                        <p>We instantly match you with top-rated carriers across your state.</p>
+                    </div>
+                    <div class="step-connector"></div>
+                    <div class="step">
+                        <div class="step-num">03</div>
+                        <h4>Save &amp; Drive</h4>
+                        <p>Choose your plan, lock in your rate, and hit the road with confidence.</p>
                     </div>
                 </div>
-            </section>
+            </div>
+        </section>
 
-            <!-- <section class="journey-cta">
-                <div class="journey-grid">
-                    <div class="cta-image">
-                        <img src="images/image.png" alt="SecureDrive" />
-                    </div>
-                    <div class="cta-text">
-                        <h2>
-                            Start Your Journey to Affordable <br /><span
-                                >Car Insurance!</span
-                            >
-                        </h2>
-                        <p>
-                            Complete a quick form and get a free, no-obligation
-                            quote. Protect your vehicle, save money, and drive
-                            with peace of mind.
-                        </p>
-                        <div class="phone-number">(888) 888-8888</div>
-                        <a href="#leadForm" class="btn-primary"
-                            >Get Quotes Now</a
-                        >
+        <!-- WHY CHOOSE US -->
+        <section class="why-choose-us">
+            <div class="why-inner">
+                <div class="why-image-col">
+                    <img
+                        src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=900&q=80"
+                        alt="Premium car on open road"
+                        loading="lazy"
+                        class="why-image"
+                    />
+                    <div class="why-badge">
+                        <span class="why-badge-num">250K+</span>
+                        <span class="why-badge-label">Happy Drivers</span>
                     </div>
                 </div>
-            </section> -->
-        </main>
+                <div class="why-text-col">
+                    <div class="section-tag">
+                        <span class="line"></span>
+                        <span class="tag-text">WHY</span>
+                    </div>
+                    <h2 class="why-heading">Why Choose Us?</h2>
+                    <p class="why-body">
+                        We understand that every driver has unique needs. That's why we offer
+                        customized car insurance solutions to fit your lifestyle and budget.
+                        Whether you need basic coverage or comprehensive protection, our expert
+                        team is here to help you every step of the way. With years of industry
+                        experience, we've partnered with trusted insurance providers to bring
+                        you the best deals.
+                    </p>
+                    <ul class="why-list">
+                        <li><span class="check">&#10003;</span> Compare 30+ top-rated insurance carriers side-by-side</li>
+                        <li><span class="check">&#10003;</span> Liability, collision, comprehensive &amp; SR-22 options</li>
+                        <li><span class="check">&#10003;</span> Low down-payment and monthly billing available</li>
+                        <li><span class="check">&#10003;</span> Multi-car, good driver, and military discounts applied</li>
+                        <li><span class="check">&#10003;</span> Licensed agents available 7 days a week</li>
+                    </ul>
+                    <a href="#Home" class="read-more-btn">Get a Quote &rarr;</a>
+                </div>
+            </div>
+        </section>
 
+        <!-- COVERAGE TYPES -->
+        <section class="coverage-section">
+            <div class="section-inner">
+                <div class="section-label">WHAT WE COVER</div>
+                <h2 class="section-title">Built for every road, every driver.</h2>
+                <div class="coverage-grid">
+                    <div class="coverage-card">
+                        <div class="cc-icon">&#128663;</div>
+                        <h4>Liability Coverage</h4>
+                        <p>Protects you when you're at fault — covering bodily injury and property damage to others.</p>
+                    </div>
+                    <div class="coverage-card">
+                        <div class="cc-icon">&#128737;</div>
+                        <h4>Collision Coverage</h4>
+                        <p>Pays to repair or replace your vehicle after a collision, regardless of who is at fault.</p>
+                    </div>
+                    <div class="coverage-card">
+                        <div class="cc-icon">&#9928;</div>
+                        <h4>Comprehensive Coverage</h4>
+                        <p>Covers non-collision events: theft, vandalism, floods, fire, and falling objects.</p>
+                    </div>
+                    <div class="coverage-card">
+                        <div class="cc-icon">&#128203;</div>
+                        <h4>SR-22 / High-Risk</h4>
+                        <p>Need an SR-22 certificate? We work with carriers who specialize in high-risk drivers.</p>
+                    </div>
+                    <div class="coverage-card">
+                        <div class="cc-icon">&#128690;</div>
+                        <h4>Uninsured Motorist</h4>
+                        <p>Shields you from drivers who carry no insurance or insufficient limits when they hit you.</p>
+                    </div>
+                    <div class="coverage-card">
+                        <div class="cc-icon">&#128667;</div>
+                        <h4>Roadside Assistance</h4>
+                        <p>24/7 towing, battery jumps, lockout service, and emergency fuel delivery added to your plan.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA BANNER -->
+        <section class="cta-banner">
+            <div class="cta-banner-inner">
+                <div class="cta-banner-text">
+                    <h2>Start Your Journey to Affordable<br /><span>Car Insurance!</span></h2>
+                    <p>Complete a quick form and get a free, no-obligation quote. Protect your vehicle, save money, and drive with peace of mind.</p>
+                </div>
+                <div class="cta-banner-actions">
+                    <div class="phone-number">&#9742;&nbsp;(888) 888-8888</div>
+                    <a href="#Home" class="btn-primary">Get Quotes Now</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- FOOTER -->
         <footer class="main-footer">
             <div class="footer-container">
                 <div class="footer-brand">
                     <div class="logo">SECUREDRIVE<span> INSURANCE</span></div>
-                    <p>Premium Auto Coverage for Autos</p>
+                    <p>Premium Auto Coverage for Every Driver</p>
                 </div>
-
                 <div class="footer-links">
                     <a href="#Home">Home</a>
                     <a href="privacy.html">Privacy Policy</a>
-                    <a href="terms.html">Terms & Conditions</a>
+                    <a href="terms.html">Terms &amp; Conditions</a>
                 </div>
             </div>
-
             <div class="footer-bottom">
-                <p>&copy; 2026 SecureDrive Insurance. All rights reserved.</p>
+                <p>&copy; 2026 SecureDrive Insurance. All rights reserved. SecureDrive is a lead-generation service and is not a licensed insurance carrier. Coverage availability and pricing vary by state.</p>
             </div>
         </footer>
 
-        <script src="script.js"></script>
-        <noscript>
-            <img src='https://api.trustedform.com/ns.gif' />
-        </noscript>
+        <!-- MODAL -->
         <div id="legalModal" class="modal">
             <div class="modal-content">
                 <span class="close-btn">&times;</span>
                 <div id="modalBody"></div>
             </div>
         </div>
+
+        <noscript><img src="https://api.trustedform.com/ns.gif" /></noscript>
+        <script src="script.js"></script>
     </body>
 </html>
