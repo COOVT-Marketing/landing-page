@@ -215,7 +215,9 @@ document.addEventListener("DOMContentLoaded", () => {
                 state:          document.getElementById("state").value,
                 zip:            document.getElementById("zip").value,
                 ipAddress:      userIp,
-                trustedFormUrl: document.getElementById("xxTrustedFormCertUrl")?.value || "",
+                xxTrustedFormUrl: document.querySelector('input[name="xxTrustedFormCertUrl"]')?.value || "",
+                xxTrustedFormPingUrl: document.querySelector('input[name="xxTrustedFormPingUrl"]')?.value || "",
+                xxTrustedFormToken: (document.querySelector('input[name="xxTrustedFormCertUrl"]')?.value || "").split('/').pop()
             };
 
             console.log("Submitting to SecureDrive:", formData);
