@@ -2,14 +2,14 @@
    1. TRUSTEDFORM INITIALIZATION
    ========================================== */
 (function() {
-    var tf = document.createElement('script');
-    tf.type = 'text/javascript';
-    tf.async = true;
-    tf.src = ("https:" == document.location.protocol ? 'https' : 'http') +
-        '://api.trustedform.com/trustedform.js?field=xxTrustedFormCertUrl&use_tagged_consent=true&l=' +
-        new Date().getTime() + Math.random();
-    var s = document.getElementsByTagName('script')[0]; 
-    s.parentNode.insertBefore(tf, s);
+  var tf = document.createElement('script');
+  tf.type = 'text/javascript';
+  tf.async = true;
+  tf.src = ("https:" == document.location.protocol ? 'https' : 'http') +
+    '://api.trustedform.com/trustedform.js?field=xxTrustedFormCertUrl&use_tagged_consent=true&l=' +
+    new Date().getTime() + Math.random();
+  var s = document.getElementsByTagName('script')[0]; 
+  s.parentNode.insertBefore(tf, s);
 })();
 
 /* ==========================================
